@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+body{
+        background-color: #4b4a4a;
+}
+header{
+    min-height: 50px;
+
+     display:flex;
+
+    justify-content:center;
+    align-items:center;
+    
+}
+header ul{
+    min-height: 50px;
+    min-width:50%;
+    display:flex;
+
+    justify-content:space-evenly;
+    align-items:center;
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+/* .intro{
+    border: 1px solid;;
+    min-height:60vh;
+    background-image:url(/portfolio/IMG_20230525_165441-01-01.jpeg.jpg);
+    background-position:80%;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:300px 400px;
+
+    
+} */
+.intro img{
+
+    height:50vh;
+    width: 40vh;    
+}
+.intro{
+    min-height: 50vh;
+    margin:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.intro-text{
+    display:flex;
+    align-items: center;
+    color:rgba(245, 245, 245, 0.648);
+}
+.intro-text span,.intro-text p{
+    font-size:30px;
+    margin:10px;
+}
+.intro-text span .name{
+    font-size:50px;
+    color: rgb(163, 106, 1);
+    font-weight: bold;
+}
+.intro-text span .name:hover{
+    color: orange;
+
+}
+.contact{
+    border:3.5px solid rgb(163, 106, 1);
+    height:6vh;
+    width: 10vw;
+    margin: 10px;
+    border-radius:8px;
+    background-color: black;
+    color:rgb(163, 106, 1);
+    font-size:larger
+}
