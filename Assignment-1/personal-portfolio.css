@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+
+    color: white;
+    background-color: black;
+}
+.header-links{
+    width:30vw;
+    display: flex;
+
+    justify-content: space-around;
+    list-style-type:none;
+}
+.header-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+main{
+    display: flex;
+}
