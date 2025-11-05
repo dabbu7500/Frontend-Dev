@@ -24,6 +24,18 @@ header{
     color: white;
     font-size: large;
 }
+img{
+    width:500px;
+    height: 500px;
+
+}
 main{
     display: flex;
+    justify-content: space-between;
+    align-items:center
+
 }
+.about{
+    
+}
+
