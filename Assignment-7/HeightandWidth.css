@@ -1,0 +1,27 @@
+.box1{
+    height:250px;
+    width:30%;
+    background-color: purple;
+    overflow: scroll;
+    margin:20px;
+
+}
+
+.box2{
+    min-height:40vh;
+    width:30vw ;
+    background-color: rgb(76, 0, 255);
+    margin:20px;
+}
+.box3{
+    height:10em;
+    max-width:10em;
+    background-color: aquamarine;
+    margin:20px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}

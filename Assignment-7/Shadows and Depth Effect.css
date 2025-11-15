@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.card1{
+    height:300px;
+    width:300px;
+    background-color:aqua;
+    text-align: center;
+    padding-top:120px;
+    margin:10px;
+    box-shadow:10px;
+}
+.card2{
+    height:300px;
+    width:300px;
+    background-color:aqua;
+    text-align: center;
+    padding-top:120px;
+    margin:10px;
+    box-shadow:rgb(0, 0, 1);
+}
+.card3{
+    height:300px;
+    width:300px;
+    background-color:aqua;
+    text-align: center;
+    padding-top:120px;
+    margin:10px;
+}
