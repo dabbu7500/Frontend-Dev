@@ -1,0 +1,32 @@
+body { margin: 0; 
+    font-family: Arial;
+ }
+header { padding: 20px;
+     text-align: center;
+      background: #222; 
+      color: white; 
+    }
+nav { padding: 10px;
+     text-align: center;
+      background: #444; }
+nav a { margin: 10px; 
+    color: white; 
+    text-decoration: none; 
+}
+main section { padding: 80px;
+     font-size: 28px;
+      color: white; 
+      text-align: center;
+     }
+.s1 { background: linear-gradient(to right, blue, purple);
+     background-attachment: fixed; }
+.s2 { background: radial-gradient(circle, orange, red);
+     background-attachment: fixed;
+     }
+.s3 { background: url("image.jpg") center/cover no-repeat;
+ }
+footer { padding: 15px; 
+    text-align: center; 
+    background: #222; 
+    color: white;
+ }

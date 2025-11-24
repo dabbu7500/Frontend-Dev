@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial; color: #062b3a; }
+.site-header { position: sticky; top: 0; background: rgba(255,255,255,0.9); backdrop-filter: blur(4px); border-bottom: 1px solid rgba(0,0,0,0.06); z-index: 50; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; }
+.logo { font-weight: 900; font-size: 18px; }
+.links a { margin-left: 12px; text-decoration: none; color: #062b3a; font-weight: 700; }
+.hero { height: 60vh; background: url("https://via.placeholder.com/1600x900") center/cover no-repeat; display: flex; align-items: center; justify-content: center; position: relative; }
+.hero-inner { text-align: center; background: rgba(255,255,255,0.6); padding: 24px; border-radius: 12px; }
+.about { display: flex; gap: 24px; padding: 40px 20px; align-items: center; }
+.about-text { flex: 1; padding: 10px; }
+.about-image { flex: 1; }
+.about-image img { width: 100%; border-radius: 8px; }
+.services { display: flex; gap: 16px; padding: 20px; }
+.service { flex: 1; background: linear-gradient(180deg, rgba(11,114,133,0.06), rgba(11,114,133,0.02)); padding: 20px; border: 1px solid rgba(11,114,133,0.08); border-radius: 10px; text-align: center; }
+.contact-section { padding: 24px; display: flex; justify-content: center; background: rgba(0,0,0,0.02); }
+.simple-form { width: 100%; max-width: 520px; display: flex; flex-direction: column; gap: 12px; }
+.simple-form input, .simple-form textarea { padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 8px; outline: none; }
+.simple-form button { padding: 12px; border: none; border-radius: 8px; background: rgba(11,114,133,1); color: #fff; font-weight: 700; cursor: pointer; }
+.site-footer { text-align: center; padding: 16px; background: #f6f8fb; margin-top: 24px; }
+@media (max-width:900px) { .about { flex-direction: column; } .services { flex-direction: column; } }

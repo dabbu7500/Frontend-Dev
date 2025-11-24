@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Georgia, serif; padding: 30px; background: #fbfbfd; color: #111; }
+header h1 { margin: 0 0 6px 0; font-size: 32px; font-weight: 900; }
+.meta { margin: 0 0 18px 0; font-size: 13px; color: #666; }
+main p { margin: 18px 0; font-size: 16px; line-height: 1.8; text-align: justify; }
+main p::first-letter { font-size: 40px; float: left; margin-right: 8px; font-weight: 700; }
+main p::first-line { font-weight: 700; }
+mark { background: #fff18d; padding: 0 4px; border-radius: 3px; }
+blockquote { margin: 20px 0; padding: 14px 16px; border-left: 6px solid rgba(0,0,0,0.12); background: #fff8e6; }
