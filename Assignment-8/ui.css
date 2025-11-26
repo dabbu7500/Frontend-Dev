@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, #d9e4ff, #fff);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: Arial;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.search {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.search:focus {
+    border-color: blue;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.dropdown {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary {
+    background: blue;
+    color: white;
+}
+
+.primary:hover {
+    opacity: 0.8;
+}
+
+.primary:active {
+    transform: scale(0.95);
+}
+
+.secondary {
+    background: gray;
+    color: white;
+}
+
+.secondary:hover {
+    opacity: 0.8;
+}
+
+.outline {
+    border: 2px solid black;
+    background: white;
+}
+
+.outline:hover {
+    background: black;
+    color: white;
+}
+
+button:focus {
+    outline: 3px solid orange;
+}
+
+.disabled {
+    background: lightgray;
+    cursor: not-allowed;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+p {
+    color: black;
+}
+
+.para {
+    color: green;
+}
+
+#unique {
+    color: blue;
+}
+
+a[data-type="external"] {
+    color: red;
+}
+
+.parent p {
+    background: lightgray;
+}
+
+.box > p {
+    font-weight: bold;
+}
+
+li + li {
+    color: purple;
+}

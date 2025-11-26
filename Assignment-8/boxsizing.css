@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.normal {
+    width: 150px;
+    padding: 30px;
+    background: lightcoral;
+}
+
+.borderbox {
+    width: 150px;
+    padding: 30px;
+    background: lightgreen;
+    box-sizing: border-box;
+}

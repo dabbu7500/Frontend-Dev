@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.effect-btn {
+    padding: 14px 22px;
+    border-radius: 10px;
+    border: none;
+    background: skyblue;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.effect-btn:hover {
+    transform: scale(1.1);
+    background: dodgerblue;
+    color: white;
+}
+
+.effect-btn:active {
+    transform: scale(0.9);
+    background: navy;
+}

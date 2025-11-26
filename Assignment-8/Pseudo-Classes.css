@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    padding: 15px;
+    border: 2px solid #333;
+    width: 200px;
+}
+
+.demo-link:hover {
+    color: red;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+.demo-btn:active {
+    background: orange;
+}
+
+.nth-demo li:nth-child(odd) {
+    background: lightgray;
+}

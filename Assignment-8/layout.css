@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    margin: 40px auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+button {
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
