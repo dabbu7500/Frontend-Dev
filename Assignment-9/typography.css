@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #fff;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.typography {
+  max-width: 900px;
+  text-align: center;
+  padding: 32px;
+}
+
+.typography h1 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  margin-bottom: 18px;
+}
+
+.typography p {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .typography p {
+    line-height: 1.4;
+    padding: 8px;
+  }
+
+  .typography {
+    padding: 16px;
+  }
+}

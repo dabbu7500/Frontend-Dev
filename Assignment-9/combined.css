@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 28px auto;
+  padding: 0 18px;
+  align-items: start;
+}
+
+.gallery-preview, 
+.explain, 
+.cheatside {
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  animation: fade 0.6s ease both;
+}
+
+.mini-grid {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.mini-grid img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.mini-grid img:hover {
+  opacity: 0.8;
+}
+
+.foot {
+  text-align: center;
+  padding: 14px;
+  margin-top: 18px;
+  background: #fff;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .layout {
+    grid-template-columns: 1fr;
+    padding: 0 12px;
+  }
+
+  .top {
+    padding: 14px;
+  }
+}
