@@ -1,0 +1,64 @@
+input[type="text"] {
+    display: block;
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+a[href^="https"] {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    border-color: #0b7285;
+    box-shadow: 0 6px 18px rgba(11,114,133,0.06);
+    outline: none;
+}
+
+.items li:nth-child(even) {
+    background: #f0f4f8;
+}
+
+.items li::before {
+    content: "• ";
+    color: #0b7285;
+}
+
+.items li::after {
+    content: " ↗";
+    font-size: 0.9em;
+    color: #888;
+}
+
+.box > p {
+    padding: 8px 0;
+    margin: 0;
+}
+
+.box p + p {
+    border-top: 1px dashed #e0e6ea;
+    padding-top: 12px;
+}
+
+.box p ~ p {
+    color: #333;
+}
+
+.items li {
+    padding: 8px 12px;
+    list-style: none;
+    margin: 4px 0;
+}
+
+@media (max-width: 500px) {
+    input[type="text"] {
+        width: 100%;
+    }
+}

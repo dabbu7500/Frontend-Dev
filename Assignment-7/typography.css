@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #fbfbfd;
+    padding: 40px;
+    color: #111;
+}
+
+.article {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+    text-align: left;
+}
+
+p {
+    margin: 16px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: 36px;
+    font-weight: 800;
+    float: left;
+    margin-right: 8px;
+}
+
+p::first-line {
+    font-weight: 700;
+}
+
+mark {
+    background: #fff1a8;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+strong {
+    color: #0b7285;
+    font-weight: 800;
+}
+
+em {
+    color: #9a7bff;
+    font-style: normal;
+}
